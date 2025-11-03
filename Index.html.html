@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Local News Digital Repository - Syed Irtiza</title>
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body { font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; line-height: 1.6; color: #2c3e50; background: #f8f9fa; }
+        .header { background: linear-gradient(135deg, #2c3e50, #3498db); color: white; padding: 3rem 0; text-align: center; }
+        .container { max-width: 1200px; margin: 0 auto; padding: 0 20px; }
+        .nav { background: #34495e; padding: 1rem 0; box-shadow: 0 2px 5px rgba(0,0,0,0.1); }
+        .nav a { color: white; text-decoration: none; margin: 0 1.5rem; font-weight: 500; transition: color 0.3s; }
+        .nav a:hover { color: #3498db; }
+        .section { padding: 4rem 0; }
+        .section-title { text-align: center; margin-bottom: 3rem; color: #2c3e50; }
+        .collection-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(350px, 1fr)); gap: 2rem; margin-top: 2rem; }
+        .collection-card { background: white; border-radius: 10px; padding: 2rem; box-shadow: 0 5px 15px rgba(0,0,0,0.1); transition: transform 0.3s; border-left: 4px solid #3498db; }
+        .collection-card:hover { transform: translateY(-5px); }
+        .item-list { list-style: none; margin-top: 1.5rem; }
+        .item-list li { padding: 0.8rem 0; border-bottom: 1px solid #ecf0f1; display: flex; align-items: center; }
+        .item-list li:before { content: "📄"; margin-right: 10px; }
+        .footer { background: #2c3e50; color: white; text-align: center; padding: 2rem 0; margin-top: 3rem; }
+        .badge { background: #e74c3c; color: white; padding: 0.3rem 0.8rem; border-radius: 20px; font-size: 0.8rem; margin-left: 10px; }
+        .developer-info { background: #3498db; color: white; padding: 1rem; text-align: center; margin-bottom: 2rem; border-radius: 5px; }
+    </style>
+</head>
+<body>
+    <header class="header">
+        <div class="container">
+            <h1>📰 Local News Digital Repository</h1>
+            <p>Preserving Community Journalism for Future Generations</p>
+            <div class="developer-info">
+                <strong>Developed by: Syed Irtiza</strong> | Digital Preservation Project
+            </div>
+        </div>
+    </header>
+
+    <nav class="nav">
+        <div class="container">
+            <a href="#collections">📚 Collections</a>
+            <a href="#exhibits">🎪 Exhibits</a>
+            <a href="#items">📋 All Items</a>
+            <a href="#about">ℹ️ About</a>
+            <a href="https://localnewsarchive.omeka.net/" target="_blank">🌐 Live Repository</a>
+        </div>
+    </nav>
+
+    <section id="collections" class="section">
+        <div class="container">
+            <h2 class="section-title">📚 Collections</h2>
+            
+            <div class="collection-grid">
+                <div class="collection-card">
+                    <h3>🏛️ Community Newspapers Collection</h3>
+                    <p>Digitized local newspapers covering important community events and historical moments</p>
+                    <ul class="item-list">
+                        <li>The County Chronicle - Election Special <span class="badge">Featured</span></li>
+                        <li>Springfield Gazette - Centennial Edition <span class="badge">Featured</span></li>
+                        <li>Riverdale Tribune - Flood Coverage</li>
+                    </ul>
+                </div>
+                
+                <div class="collection-card">
+                    <h3>💻 Digital Journalism Collection</h3>
+                    <p>Born-digital news content from blogs, podcasts, and online publications</p>
+                    <ul class="item-list">
+                        <li>Neighborhood Watch Blog - Development Series</li>
+                        <li>Local Voices Podcast - School Board Analysis</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="exhibits" class="section" style="background: #ecf0f1;">
+        <div class="container">
+            <h2 class="section-title">🎪 Featured Exhibit</h2>
+            <div class="collection-card">
+                <h3>📜 Historic Front Pages Exhibit</h3>
+                <p>Curated selection of significant newspaper front pages that shaped community discourse and documented important historical moments</p>
+                <ul class="item-list">
+                    <li><strong>County Chronicle - Election Special:</strong> Comprehensive coverage of local and state elections with voter guides and results</li>
+                    <li><strong>Springfield Gazette - Centennial Edition:</strong> 100-year anniversary celebrating community journalism legacy</li>
+                </ul>
+                <p style="margin-top: 1rem; color: #7f8c8d; font-style: italic;">This exhibit demonstrates thematic organization within the broader collection structure.</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="items" class="section">
+        <div class="container">
+            <h2 class="section-title">📋 All Repository Items</h2>
+            <div class="collection-grid">
+                <div class="collection-card">
+                    <h4>1. The County Chronicle</h4>
+                    <p><strong>Date:</strong> November 8, 2022</p>
+                    <p><strong>Type:</strong> Election Coverage</p>
+                    <p><strong>Format:</strong> PDF/A</p>
+                </div>
+                <div class="collection-card">
+                    <h4>2. Springfield Gazette</h4>
+                    <p><strong>Date:</strong> June 15, 2021</p>
+                    <p><strong>Type:</strong> Anniversary Edition</p>
+                    <p><strong>Format:</strong> PDF/A</p>
+                </div>
+                <div class="collection-card">
+                    <h4>3. Riverdale Tribune</h4>
+                    <p><strong>Date:</strong> March 22, 2023</p>
+                    <p><strong>Type:</strong> Emergency Coverage</p>
+                    <p><strong>Format:</strong> PDF/A</p>
+                </div>
+                <div class="collection-card">
+                    <h4>4. Neighborhood Watch Blog</h4>
+                    <p><strong>Date:</strong> January 15, 2024</p>
+                    <p><strong>Type:</strong> Investigative Series</p>
+                    <p><strong>Format:</strong> HTML/WARC</p>
+                </div>
+                <div class="collection-card">
+                    <h4>5. Local Voices Podcast</h4>
+                    <p><strong>Date:</strong> February 10, 2024</p>
+                    <p><strong>Type:</strong> Audio Analysis</p>
+                    <p><strong>Format:</strong> MP3</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="about" class="section" style="background: #ecf0f1;">
+        <div class="container">
+            <h2 class="section-title">ℹ️ About This Repository</h2>
+            <div class="collection-grid">
+                <div class="collection-card">
+                    <h3>🎯 Project Purpose</h3>
+                    <p>This repository demonstrates digital preservation practices for local journalism content using professional repository standards and metadata schemas.</p>
+                </div>
+                <div class="collection-card">
+                    <h3>🛠 Technical Details</h3>
+                    <p><strong>Platform:</strong> Omeka S</p>
+                    <p><strong>Metadata:</strong> Dublin Core + Custom Fields</p>
+                    <p><strong>Access:</strong> Public Repository</p>
+                    <p><strong>Preservation:</strong> Format Migration & Checksums</p>
+                </div>
+                <div class="collection-card">
+                    <h3>📈 Repository Stats</h3>
+                    <p><strong>Collections:</strong> 2</p>
+                    <p><strong>Items:</strong> 5</p>
+                    <p><strong>Exhibits:</strong> 1</p>
+                    <p><strong>Formats:</strong> PDF/A, MP3, HTML/WARC</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="container">
+            <p>📰 Local News Digital Repository &copy; 2024</p>
+            <p>Developed by <strong>Syed Irtiza</strong> | Digital Preservation Project</p>
+            <p>🌐 Live Repository: <a href="https://localnewsarchive.omeka.net/" style="color: #3498db;">https://localnewsarchive.omeka.net/</a></p>
+        </div>
+    </footer>
+</body>
+</html>

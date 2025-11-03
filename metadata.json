@@ -1,0 +1,113 @@
+{
+  "project": {
+    "name": "Local News Digital Repository",
+    "developer": "Syed Irtiza",
+    "description": "Digital preservation repository for local journalism content",
+    "live_url": "https://localnewsarchive.omeka.net/",
+    "created": "2024",
+    "purpose": "Academic Project - Digital Repository Implementation"
+  },
+  "collections": [
+    {
+      "id": "collection-001",
+      "name": "Community Newspapers Collection",
+      "description": "Digitized local newspapers covering important community events",
+      "item_count": 3,
+      "items": [
+        {
+          "id": "item-001",
+          "title": "The County Chronicle - November 8, 2022",
+          "creator": "County Chronicle Editorial Staff",
+          "date": "2022-11-08",
+          "description": "Special election edition covering local and state races with comprehensive voter guides",
+          "subject": ["Elections", "Local Government", "Voting", "Politics"],
+          "type": "Text",
+          "format": "PDF/A",
+          "rights": "Copyright County Chronicle, used with permission",
+          "coverage": "Countywide",
+          "language": "en",
+          "in_exhibit": true
+        },
+        {
+          "id": "item-002",
+          "title": "Springfield Gazette 100th Anniversary Edition",
+          "creator": "Springfield Gazette",
+          "date": "2021-06-15",
+          "description": "Special edition celebrating 100 years of community journalism and local history",
+          "subject": ["Anniversary", "Local History", "Journalism", "Community"],
+          "type": "Text",
+          "format": "PDF/A",
+          "rights": "Copyright Springfield Gazette, educational use",
+          "coverage": "Springfield metropolitan area",
+          "language": "en",
+          "in_exhibit": true
+        },
+        {
+          "id": "item-003",
+          "title": "Riverdale Tribune Emergency Flood Edition",
+          "creator": "Riverdale Tribune Staff",
+          "date": "2023-03-22",
+          "description": "Comprehensive coverage of historic flooding and community response efforts",
+          "subject": ["Natural Disaster", "Emergency Response", "Community", "Weather"],
+          "type": "Text",
+          "format": "PDF/A",
+          "rights": "Copyright Riverdale Tribune, preserved under fair use",
+          "coverage": "Riverdale and surrounding areas",
+          "language": "en",
+          "in_exhibit": false
+        }
+      ]
+    },
+    {
+      "id": "collection-002",
+      "name": "Digital Journalism Collection",
+      "description": "Born-digital news content from blogs, podcasts, and online publications",
+      "item_count": 2,
+      "items": [
+        {
+          "id": "item-004",
+          "title": "Urban Development Impact on Local Communities",
+          "creator": "Maria Chen, Community Reporter",
+          "date": "2024-01-15",
+          "description": "Three-part investigative series on urban development and its effects on neighborhoods",
+          "subject": ["Urban Planning", "Community Impact", "Development", "Housing"],
+          "type": "Blog Series",
+          "format": "HTML/WARC",
+          "rights": "Creative Commons BY-NC 4.0",
+          "coverage": "Metropolitan area",
+          "language": "en",
+          "in_exhibit": false
+        },
+        {
+          "id": "item-005",
+          "title": "School Board Decisions: What They Mean for Your Neighborhood",
+          "creator": "James Robertson, Education Correspondent",
+          "date": "2024-02-10",
+          "description": "Audio analysis of recent school board funding decisions and policy changes",
+          "subject": ["Education", "School Funding", "Local Politics", "Policy"],
+          "type": "Sound",
+          "format": "MP3",
+          "rights": "Creative Commons BY-NC-ND 4.0",
+          "coverage": "School district boundaries",
+          "language": "en",
+          "in_exhibit": false
+        }
+      ]
+    }
+  ],
+  "exhibits": [
+    {
+      "id": "exhibit-001",
+      "name": "Historic Front Pages Exhibit",
+      "description": "Curated selection of significant newspaper front pages that documented important community moments",
+      "purpose": "Demonstrate thematic organization within collection structure",
+      "items": ["item-001", "item-002"],
+      "level": "Sub-collection organization"
+    }
+  ],
+  "metadata_standards": {
+    "primary": "Dublin Core",
+    "extensions": ["PREMIS", "Custom journalism fields"],
+    "preservation_level": "Bit-level preservation with format migration"
+  }
+}
